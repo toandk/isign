@@ -27,6 +27,21 @@ Table of contents
 Installing
 ----------
 
+Prerequisites
+~~~~~
+Install Python 3: `<https://packaging.python.org/guides/installing-using-linux-tools/>`
+Install pyOpenSSL 16.2.0:
+
+```
+sudo pip uninstall pyOpenSSL
+sudo pip install pyOpenSSL=16.2.0
+```
+
+Install zip: 
+```
+sudo apt-get install zip
+```
+
 Linux
 ~~~~~
 
@@ -45,7 +60,7 @@ run the install script:
 
 .. code::
 
-  $ git clone https://github.com/saucelabs/isign.git
+  $ git clone https://github.com/toandk/isign.git
   $ cd isign
   $ sudo ./INSTALL.sh
 
